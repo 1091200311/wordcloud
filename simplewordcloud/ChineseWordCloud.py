@@ -8,6 +8,7 @@ w = wordcloud.WordCloud(width=1000,
                         height=700,
                         background_color='white',
                         font_path='msyh.ttc',
+                        max_words=20
                         )
 w.generate(string)
 w.to_file('out3.png')
